@@ -1,0 +1,18 @@
+@import './variables.scss';
+
+html, body { 
+    height: 100%;
+}
+
+body { 
+    margin: 0;
+    font-family: Roboto, "Helvetica Neue", sans-serif;
+    background-color: $bg-color;
+    color: $text-color;
+}
+
+// style for error pages
+.content-error {
+  padding: 30px 10px;
+  color: $error-page-font-color;
+}
